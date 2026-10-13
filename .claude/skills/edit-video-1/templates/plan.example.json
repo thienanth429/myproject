@@ -1,0 +1,21 @@
+{
+  "style": "v3_creator",
+  "video": "input.mp4",
+  "words": "words.json",
+  "keywords": ["$30,000", "decision", "burnout"],
+  "negatives": ["never", "không", "chưa"],
+  "auto_keywords": true,
+  "broll": [
+    {"file": "broll/tools.png", "start": 3.20, "end": 5.30, "mode": "slide"},
+    {"file": "broll/clock.jpg", "start": 8.75, "end": 10.0, "mode": "card"}
+  ],
+  "name_title": {"name": "Tên nhân vật", "role": "Chức danh", "start": 1.28, "end": 5.0},
+  "overrides": {},
+  "_ghi_chu": {
+    "style": "v1_editorial | v2_kinetic | v3_creator | v4_premium",
+    "broll.mode": "card (thẻ đè thân, chừa mặt) | stamp (tem nhỏ viền trắng) | slide (asset giữa nền phẳng) | full (toàn màn)",
+    "broll tuỳ chọn": "width (tỷ lệ chiều rộng khung), cy (tâm theo chiều cao), from (giây bắt đầu nếu là video)",
+    "name_title": "chỉ hiển thị với v1_editorial",
+    "overrides": "ghi đè bất kỳ khoá nào trong scripts/presets.py, vd {\"y\": 0.65, \"size\": 60}"
+  }
+}
